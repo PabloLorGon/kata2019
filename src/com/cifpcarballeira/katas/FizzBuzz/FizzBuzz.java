@@ -12,11 +12,14 @@ package com.cifpcarballeira.katas.FizzBuzz;
 public class FizzBuzz {
 
     public String getFizzBuzz(int num) {
-        if (num==1) return "1";
-        
-        else if (num==2)return "2";
-        
-        else return "3";
+        switch (num) {
+            case 1:
+                return "1";
+            case 2:
+                return "2";
+            default:
+                return "3";
+        }
     }        
     
 }
