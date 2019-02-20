@@ -35,6 +35,6 @@ public class TestFizzBuzz {
      public void test1devuelve3() {
          FizzBuzz fb = new FizzBuzz();
          String result = fb.getFizzBuzz(3);
-         assertEquals("3", result);
+         assertEquals("Fizz", result);
      }
 }

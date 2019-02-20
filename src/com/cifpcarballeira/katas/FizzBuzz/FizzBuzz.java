@@ -12,14 +12,9 @@ package com.cifpcarballeira.katas.FizzBuzz;
 public class FizzBuzz {
 
     public String getFizzBuzz(int num) {
-        switch (num) {
-            case 1:
-                return "1";
-            case 2:
-                return "2";
-            default:
-                return "3";
-        }
+        if (num%3 ==0) return "Fizz";
+        
+        else return Integer.toString(num);
     }        
     
 }
