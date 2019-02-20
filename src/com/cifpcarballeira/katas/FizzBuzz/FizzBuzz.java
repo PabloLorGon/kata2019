@@ -9,7 +9,7 @@ package com.cifpcarballeira.katas.FizzBuzz;
  *
  * @author DAM116
  */
-public class FizzBuzz {
+public class FizzBuzz { 
 
     public String getFizzBuzz(int num) {
         if (num%3 ==0 && num%5!=0) return "Fizz";
